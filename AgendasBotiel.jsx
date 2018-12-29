@@ -1,4 +1,4 @@
-﻿function shuffle(a) {
+function shuffle(a) {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1));
@@ -10,7 +10,7 @@
 
 var frases = [
   {
-    "phrase": "Esta es la primera mañana de un nuevo año te quiero decir que estoy aquí para cuidar de ti. Ten fe y confía en que tus necesidades serán cubiertas ahora y en el futuro. Éste será un gran año para nosotros. Estoy a tu lado."
+    "phrase": "Esta mañana te quiero decir que estoy aquí para cuidar de ti. Ten fe y confía en que tus necesidades serán cubiertas ahora y en el futuro. Éste será un gran tiempo para nosotros. Estoy a tu lado."
   },
   {
     "phrase": "Llamar a los ángeles es un poderoso camino para llevar luz y amor a toda situación. Estoy a tu lado en la calma y en el caos. Cuando desees serenidad respira profundo y apóyate en mí."
@@ -22,10 +22,10 @@ var frases = [
     "phrase": "Dios creo a los ángeles como ayuda a las criaturas de la tierra, es tu derecho divino y tu privilegio, te asistimos a tomar control de tu vida y ajustar tus metas a la armonía, la abundancia, la salud las buenas relaciones y todo aquello que desea tu corazón."
   },
   {
-    "phrase": "Permite a tu alma de niño soñar esta noche y pide a los reyes magos tu más grande deseo,"
+    "phrase": "Permite a tu alma de niño soñar esta noche y pide a los ángeles que te ayuden a alcanzar tus deseos."
   },
   {
-    "phrase": "la manera en que celebras y agradeces lo que ahora tienes será tu mejor mensaje. La magia se manifiesta hasta cunado crees en ella."
+    "phrase": "la manera en que celebras y agradeces lo que ahora tienes será tu mejor mensaje. La magia se manifiesta hasta cuando crees en ella."
   },
   {
     "phrase": "Cuando regalas bondad, tu energía se expande y logras tu verdadera libertad, esto debido a que la energía de agradecimiento de los demás hacia ti, eleva tu espíritu."
@@ -70,7 +70,7 @@ var frases = [
     "phrase": "Al comunicarte amorosamente, vibras en la energía más alta y es en esta vibración donde suceden los milagros. Permanece atento a nuestras señales y disfruta el resultado. Llámanos, invócanos, platica con nosotros, no cierres la comunicación, sólo podemos ayudarte cuando lo pides. "
   },
   {
-    "phrase": "Tú paz interior te permite una conexión clara e instantánea con tus ángeles, cierra los ojos, respira profundo y llámanos, este acto trae inmediato bienestar para ti, si estás enfermo, sientes miedo o si quieres sentirte amado."
+    "phrase": "Tu paz interior te permite una conexión clara e instantánea con tus ángeles, cierra los ojos, respira profundo y llámanos, este acto trae inmediato bienestar para ti, si estás enfermo, sientes miedo o si quieres sentirte amado."
   },
   {
     "phrase": "Cada situación aparentemente dolorosa trae un regalo, pide a nuestro amado Dios Padre-Madre que te permita verlo, extiende tus alas con plena confianza y vuela con seguridad a la siguiente experiencia. "
@@ -85,7 +85,7 @@ var frases = [
     "phrase": "Ninguna opinión sobre ti, a menos que manifieste amor incondicional es real. Tu verdad es divina. Eres amado, guiado y protegido por nosotros tus ángeles ahora y siempre."
   },
   {
-    "phrase": "Si estás preocupado por cosas materiales como el dinero, el trabajo, la casa o las posesiones, recuerda que hay otro camino. La energía que gasta en angustiarte puedes invertirla en platicar con dios, conocer tu talento, belleza y sabiduría y conocerlos."
+    "phrase": "Si estás preocupado por cosas materiales como el dinero, el trabajo, la casa o las posesiones, recuerda que hay otro camino. La energía que gastas en angustiarte puedes invertirla en platicar con Dios, conocer tu talento, belleza y sabiduría y aplicarlos."
   },
   {
     "phrase": "La honestidad contigo mismo, es la magia que te lleva al amor por ti. Los errores cometidos son pasos hacia tu éxito. Quizá algunas de tus emociones pueden preocuparte, asustarte o intimidarte, todo está bien, sé honesto contigo y aprende a amarte como te ama Dios."
@@ -97,7 +97,7 @@ var frases = [
     "phrase": "Tu poder es ilimitado, enfrenta cada situación y enfócate en el resultado como si ya se hubiera manifestado, alínea mente, corazón y voluntad y conquista tus sueños."
   },
   {
-    "phrase": "Habla con tus ángeles y toma cada decisión basado en la luz, ábrete al abrazo amoroso de su consuelo. Disfruta tu día pensando que es un regalo del cielo y está lleno de oportunidades y amor para ti. En el mundo del espíritu no hay problemas reales, todo está en paz, en armonía y sanado. Abre tu corazón y siente como te abraza la luz divina llenando tu vida de bendiciones. "
+    "phrase": "Habla con tus ángeles y toma cada decisión basado en la luz, ábrete al abrazo amoroso de su consuelo. Disfruta tu día pensando que es un regalo del cielo y está lleno de oportunidades y amor para ti. Abre tu corazón y siente como te abraza la luz divina llenando tu vida de bendiciones. "
   },
   {
     "phrase": "Elige palabras de amor para ti y para los demás cuando hables. Como respuesta las situaciones cambiarán a favor, si necesitas ayuda del cielo, enciende una vela blanca para comunicarte con Dios y sus ángeles."
@@ -109,7 +109,7 @@ var frases = [
     "phrase": "Siempre estamos a tu lado, el cielo está en tu interior, siente nuestra presencia, te inspiramos durante el día dejando señales nuestras en tu camino. Sonríe, estoy a tu lado."
   },
   {
-    "phrase": "Las emociones negativas drenan tu tiempo y energía, date un positivazo y confía en la guía del cielo, estoy a tu lado para recordarte que en el amor está la respuesta a todo, el amor no es un sentimiento romántico es aprender a vivir desde tu parte divina."
+    "phrase": "Las emociones negativas drenan tu tiempo y energía, date un POSITIVAZO y confía en la guía del cielo, estoy a tu lado para recordarte que en el amor está la respuesta a todo, el amor no es un sentimiento romántico es aprender a vivir desde tu parte divina."
   },
   {
     "phrase": "Es importante liberar tus miedos y bloqueos para que puedas entender las señales que te enviamos tus ángeles, sin embargo cuida tus palabras, utilízalas para bendecir, tus palabras tienen un poder inmenso."
@@ -154,7 +154,7 @@ var frases = [
     "phrase": "Cada vez que respiras inhalas del aire el amor que le han impregnado los ángeles. ¡Siéntelo! Cuando expresas este sentimiento haces vibrar de felicidad a todo tu alrededor."
   },
   {
-    "phrase": "Una sencilla forma de percibir las señales divinas es tu contacto con la naturaleza y los ángeles trabajamos dejando señales para tu durante todo el día, ten la certeza del amor de Dios, con él, Todo Está Bien."
+    "phrase": "Una sencilla forma de percibir las señales divinas es tu contacto con la naturaleza y los ángeles trabajamos dejando señales para ti durante todo el día, ten la certeza del amor de Dios, con él, Todo Está Bien."
   },
   {
     "phrase": "No luches, fluye. En la simplicidad encontrarás una vida llena de luz y armonía, percibe al mundo sutil que te rodea, utiliza el amor como ingrediente secreto para hacer magia en tu vida."
@@ -190,7 +190,7 @@ var frases = [
     "phrase": "Ama, cuida y procura a tu niño interior, ese ser que se maravilla de lo simple y vive en el presente. Tu ser adulto es el resultado de las heridas de tu infancia, acepta que las tienes y trabaja en sanarlas para encontrar cuan valioso eres siendo tú mismo."
   },
   {
-    "phrase": "Cada pensamiento, cada actitud, cada palabra que procede del amor te hace creador de milagros. Imagina el mejor obsequio que te vaya a dar la vida y con esa sensación alinea tus pensamientos y acciones, ahora goza de tu gran obra. Date cuenta tu vida es maravillosa."
+    "phrase": "Cada pensamiento, cada actitud, cada palabra que procede del amor te hace creador de milagros. Imagina el mejor obsequio que te vaya a dar la vida y con esa sensación alinea tus pensamientos y acciones, ahora goza de tu gran obra. Tu vida es maravillosa."
   },
   {
     "phrase": "Cuando mueves tu cuerpo, cantas y bailas, la energía de tu cuerpo se modifica y sube tu vibración para bien. ¡Muévete! Los grandes alquimistas siempre han utilizado la energía de sus movimientos y cantos para hacer magia. ¡Atrévete!"
@@ -202,7 +202,7 @@ var frases = [
     "phrase": "Date permiso de ver la situación desde otra perspectiva, aprovecha la oportunidad y aprende. Te invitamos a dejar el lugar de víctima y responsabilizarte de tu propia vida, esto te ayudará a eliminar la culpa y ver cómo puedes corregir los errores cometidos con la fuerza del amor. "
   },
   {
-    "phrase": "Deja de luchar por realizar tus deseos, relájate y permite que el universo trabaje, ábrete a recibir, ten fe y confía. Primero es importante saber que deseas, asumir el compromiso de responsabilizarte de tu deseo cumplido y enfocar mente, corazón, voluntad y palabras en tu deseo."
+    "phrase": "Deja de luchar por realizar tus deseos, relájate y permite que el universo trabaje, ábrete a recibir, ten fe y confía. Primero es importante saber que deseas, asumir el compromiso de responsabilizarte de tu deseo cumplido y enfocar mente, corazón, voluntad y palabra en tu deseo."
   },
   {
     "phrase": "Las únicas limitaciones que tienes en tu vida, son tus memorias, creencias y pensamientos. Vamos a eliminarlas juntos. Es importante que manifiestas al universo tu deseo de cambiar, de sanar las consecuencias que han provocado estas memorias y pedir que el poder del amor haga su trabajo. Dios está obrando a través de ti, sólo fluye."
@@ -223,7 +223,7 @@ var frases = [
     "phrase": "Conversa con las áreas de tu cuerpo que están reclamando tu atención, agradece su ayuda y toma acción a tu favor. Recuerda que la enfermedad es un desorden manifestado por la alteración en tus emociones. El orden divino de cada una de tus células es un derecho divino, en el momento en que empieces a alinear tus emociones y merecimientos se manifestará."
   },
   {
-    "phrase": "Cuidar de ti, es una forma de amar a tu familia, a tus amigos y a tu planeta. Si estás bien, todo está bien. Todos estamos unidos bajo una red hecha de polvo de estrellas, esto confirma que estamos unidos para sanar. Tu vida repercute en toda la creación, eres muy valioso cuida de ti. "
+    "phrase": "Cuidar de ti, es una forma de amar a tu familia, a tus amigos y a tu planeta. Si tu estás bien, todo está bien. Todos estamos unidos bajo una red hecha de polvo de estrellas, esto confirma que estamos unidos para sanar. Tu vida repercute en toda la creación, eres muy valioso cuida de ti. "
   },
   {
     "phrase": "La gratitud trae cosas buenas para ti, la queja y la resistencia las aleja. Cancela todo pensamiento de queja, abre las puertas de tu abundancia a todo nivel, agradeciendo, bendiciendo, compartiendo y amando con pasión tu labor."
@@ -268,7 +268,7 @@ var frases = [
     "phrase": "Es importante que tu poder sea utilizado para bien, con infinito respeto y prudencia, de esta manera la totalidad de la creación obrará a tu favor. "
   },
   {
-    "phrase": "No des nada por hecho, no supongas, al hacerlo desaparecen en tu vida la dicha y sorpresa de los inesperado. La voluntad de Dios es maravillarte con una vida rica en magia."
+    "phrase": "No des nada por hecho, no supongas, al hacerlo desaparecen en tu vida la dicha y sorpresa de lo inesperado. La voluntad de Dios es maravillarte con una vida rica en magia."
   },
   {
     "phrase": "Date la oportunidad de nutrir tu vida renovando hábitos. Bendice lo que comes y lo que bebes. Bendice tu amanecer en tu camino. Que tu día sea una continua bendición."
@@ -328,7 +328,7 @@ var frases = [
     "phrase": "El humor está impregnado de la estructura amorosa del universo y llena de gozo tu corazón. Late al ritmo del universo y contagia felicidad."
   },
   {
-    "phrase": "La felicidad es tu derecho de conciencia, es una elección que viene desde tu interior sin importar lo que sucede en el exterior. Tu mundo es tu creación, corrige lo que no te guste alineando mente, corazón y voluntad."
+    "phrase": "La felicidad es tu derecho de consciencia, es una elección que viene desde tu interior sin importar lo que sucede en el exterior. Tu mundo es tu creación, corrige lo que no te guste alineando mente, corazón y voluntad."
   },
   {
     "phrase": "Confía en que los ángeles estamos contigo en todo momento, cuidándote. Cierra los ojos y siente mi cálido abrazo. Te amo. "
@@ -337,7 +337,7 @@ var frases = [
     "phrase": "Para sanar toda ilusión, es importante dejarla ir y aceptar que la luz y el amor divino entre en tu corazón. Todo es para bien, cierra ciclos y atrévete a volar."
   },
   {
-    "phrase": "La enfermedad, la carencia, la soledad, el dolor no existen en la conciencia del amor. Recuerda que tu esencia es divina, reconoce en qué estás enfocando tus pensamientos y concéntrate sólo en pensamientos positivos."
+    "phrase": "La enfermedad, la carencia, la soledad y el dolor no existen en la consciencia del amor. Recuerda que tu esencia es divina, reconoce en que estás enfocando tus pensamientos y concéntrate sólo en pensamientos positivos."
   },
   {
     "phrase": "Puedes pedir todo lo que deseas en beneficio tuyo y de los demás, nunca es demasiado. El universo es ilimitado."
@@ -358,25 +358,25 @@ var frases = [
     "phrase": "Estamos aquí para atraparte cuando caigas. Llámanos, mantendremos tu fe a flote. Visualiza que cada caída es un paso hacia el éxito."
   },
   {
-    "phrase": "Respetemos tu libre albedrío, si quieres sufrir con percepciones miserables de ti mismo, no podemos hacer nada, te acompañamos en tu elección, si quieres avanzar en amor, también te guiamos."
+    "phrase": "Respetamos tu libre albedrío, si quieres sufrir con percepciones miserables de ti mismo, no podemos hacer nada, te acompañamos en tu elección, si quieres avanzar en amor, también te guiamos."
   },
   {
-    "phrase": "Tienes acceso a la fuente de sabiduría más asombrosa que te da consejo, guía y dirección. Escucha tu corazón. Cuando quieras ayuda específica en algún tema, solicita ayuda al ángel especialista en algún tema, no importa que no conozcas su nombre, por ejemplo pide ayuda al ángel de las matemáticas."
+    "phrase": "Tienes acceso a la fuente de sabiduría más asombrosa que te da consejo, guía y dirección. Escucha tu corazón. Cuando quieras ayuda específica en algún tema, solicita ayuda al ángel especialista en el tema, no importa que no conozcas su nombre, por ejemplo pide ayuda al ángel de las matemáticas."
   },
   {
     "phrase": "Hoy como niño, mira tu vida con otros ojos, eres un héroe dispuesto a lograr la hazaña de ser tu mismo. ¡Vamos a jugar! Te amo."
   },
   {
-    "phrase": "Busca primero el reino de Dios (tu armonía interior) y todo lo demás se te dará por añadidura. Tu relación con mamá te va a dar seguridad."
+    "phrase": "Busca primero el reino de Dios (tu armonía interior) y todo lo demás se te dará por añadidura."
   },
   {
     "phrase": "Para que se genere el ciclo sin fin, es tan importante el dar como el recibir. Mereces plenitud ¿Te sientes merecedor de lo mejor?"
   },
   {
-    "phrase": "Los ángeles te aplaudimos, vas por el camino correcto. Tu avance en el camino de la conciencia lo manifiesta. Como es afuera es adentro, la armonía se manifiesta en tu vida."
+    "phrase": "Los ángeles te aplaudimos, vas por el camino correcto. Tu avance en el camino de la consciencia lo manifiesta. Como es afuera es adentro, la armonía se manifiesta en tu vida."
   },
   {
-    "phrase": "En la naturaleza nuestro padre-madre ha dejado señales para ti, los árboles te inspiran apoyo, cobijo y sustentos: las flores, paz, amor y contento. "
+    "phrase": "En la naturaleza nuestro Padre-Madre ha dejado señales para ti, los árboles te inspiran apoyo, cobijo y sustentos: las flores, paz, amor y contento. "
   },
   {
     "phrase": "Los ángeles caminamos a tu lado en el sendero que elegiste, todas las puertas de oportunidad se están abriendo, una estrella brillante te guía, las recompensas aguardan luminosas."
@@ -403,13 +403,13 @@ var frases = [
     "phrase": "-‘’Dulce Madre no te partes, tu vista de mí no alejes, ven conmigo a todas partes y solo nunca me dejes’’."
   },
   {
-    "phrase": "    Cuando quieras ver la luz sagrada que hay en tu interior, enciende una vela y visualiza en su llama tu fuego interior, es el fuego que nutre tus sueños, calienta tu corazón e ilumina tu vida."
+    "phrase": "Cuando quieras ver la luz sagrada que hay en tu interior, enciende una vela y visualiza en su llama tu fuego interior, es el fuego que nutre tus sueños, calienta tu corazón e ilumina tu vida."
   },
   {
     "phrase": "Es importante que tengas un lugar sagrado donde te conectes con los ángeles y pongas un altar, será más fácil conectarte. Este espacio será un indicador a tu mente de la disposición de tu corazón a conectarte con tu divinidad."
   },
   {
-    "phrase": "Cuando te sientas nervioso, es un síntoma de que el miedo se está apoderando de tus emociones. Relájate y llámanos. Te llenaremos de confianza para que la divinidad en tu interior actúe inmediatamente, haciéndote sentir seguro."
+    "phrase": "Cuando te sientas nervioso, es un síntoma de que el miedo se está apoderando de tus emociones. Relájate y llámanos. Te llenaremos de confianza para que la Divinidad en tu interior actúe inmediatamente, haciéndote sentir seguro."
   },
   {
     "phrase": "Relájate, respira profundo y permite que Dios y los ángeles te protejamos. Si Dios está contigo ¿quién contra ti? Tu alma es el templo de Dios."
@@ -424,7 +424,7 @@ var frases = [
     "phrase": "El poder está en tu interior, cree y confía. Los ángeles estamos a tu lado apoyándote, no hay nada que temer, todo está bien."
   },
   {
-    "phrase": "En el universo están todas las respuestas, solicita soluciones sin importar el tamaño del problema. Dios todo lo puede, tú todo lo puedes, asume tu divinidad."
+    "phrase": "En el universo están todas las respuestas, solicita soluciones sin importar el tamaño del problema. Dios todo lo puede, tú todo lo puedes, asume tu Divinidad."
   },
   {
     "phrase": "Amado mío, tú tienes mucho que ofrecer al mundo, eres mucho más poderoso de lo que puedes llegar a entender. Manifiesta la seguridad de tener junto a ti el apoyo del mundo angelical."
@@ -445,13 +445,13 @@ var frases = [
     "phrase": "Tus intenciones crean tus experiencias, mantén intenciones para ver, sentir y vivir experiencias de alto bienestar. La gracia crece, se expande, llena tu corazón, tu espacio, tu mundo y trasciende."
   },
   {
-    "phrase": "Tus intenciones crean tus experiencias, mantén intenciones para ver, sentir y vivir experiencias de alto bienestar. La gracia crece, se expande, llena tu corazón, tu espacio, tu mundo y trasciende."
+    "phrase": "La vida te da sorpresas maravillosas a cada instante, solo puedes verlas si estás listo. Enfócate en las señales que te damos los ángeles."
   },
   {
     "phrase": "Ábrete a recibir el bienestar que tiene para ti cada día. La luz del padre sol se proyecta sobre la madre tierra uniendo amorosamente los reinos de la creación. "
   },
   {
-    "phrase": "La gracia divina  se manifiesta en tu vida cuando en la cosa más simple encuentras una bendición, en toda la creación se manifiesta la amorosa presencia de Dios "
+    "phrase": "La gracia divina se manifiesta en tu vida cuando en la cosa más simple encuentras una bendición, en toda la creación se manifiesta la amorosa presencia de Dios "
   },
   {
     "phrase": "Cuando depositas tu fe en Dios, el universo actúa para que tus deseos se vuelvan realidad. El amor es la esencia de todo lo que existe."
@@ -466,10 +466,10 @@ var frases = [
     "phrase": "Los pensamientos positivos generan resultados positivos y los pensamientos negativos bloquean tu avance. Adáptate a toda circunstancia, no te resistas, fluye. "
   },
   {
-    "phrase": "Puedes pedir ayuda divina sobre el tema que se te ocurra, la sabiduría del cielo, está a tu disposición. Toda solución proviene de la mente maestra que todo lo crea, cree y confía."
+    "phrase": "Puedes pedir ayuda divina sobre el tema que se te ocurra, la sabiduría del cielo, está a tu disposición. Toda solución proviene de la mente maestra que todo lo crea. Cree y confía."
   },
   {
-    "phrase": "La esencia que te anima es Dios, permite que se manifieste en tu vida y llena tu casa con amor, paz, tranquilidad, salud, abundancia y mucha protección."
+    "phrase": "La esencia que te anima es Dios, permite que se manifieste en tu vida y colme tu casa con amor, paz, tranquilidad, salud, abundancia y mucha protección."
   },
   {
     "phrase": "Lo mejor de cada situación es que puedes gozar el aprendizaje, los errores te acercan al éxito que mereces. Toda situación puede ser lección o bendición, al transcurrir del tiempo te darás cuenta que ambas son bendición."
@@ -493,13 +493,13 @@ var frases = [
     "phrase": "Reconoce tu verdad para sanar, escucha tu cuerpo, percibe tus emociones y busca la armonía. La apariencia de enfermedad proviene de un desorden en tu interior, solicita que el orden divino se manifieste y sana."
   },
   {
-    "phrase": "Hoy tengo para ti comprensión, consuelo y un cúmulo de cosas bellas. Son regalos que nuestro padre-madre te envía a través de nosotros."
+    "phrase": "Hoy tengo para ti comprensión, consuelo y un cúmulo de cosas bellas. Son regalos que nuestro Padre-Madre te envía a través de nosotros."
   },
   {
-    "phrase": "Al convertir una de tus acciones en una abalanza a tu divinidad, haces un depósito a tu bando de plenitud. Hay bendiciones especiales reservadas para ti cuando actúas con amor y perdón."
+    "phrase": "Al convertir una de tus acciones en una alabanza a tu Divinidad, haces un depósito a tu banco de plenitud. Hay bendiciones especiales reservadas para ti cuando actúas con amor y perdón."
   },
   {
-    "phrase": "Mantén tu mantente con pensamientos de agradecimiento y paz, elimina la preocupación, tus ángeles te acompañamos tanto de noche, como de día."
+    "phrase": "Mantén tu mente con pensamientos de agradecimiento y paz, elimina la preocupación, tus ángeles te acompañamos tanto de noche, como de día."
   },
   {
     "phrase": "Los ángeles vemos que estás preocupado por avanzar en la vida, elimina este sentimiento y deja los detalles a Dios. Lo mejor que puedes hacer es expresar amor en todo lo que haces, fluye naturalmente en el camino de la luz."
@@ -523,7 +523,7 @@ var frases = [
     "phrase": "Elige la paz e incrementa tu capacidad para eliminar el estrés, las dudas, la carencia y el dolor. El arcángel Rafael, toma tu mano como a Tobías y te ayuda a cruzar a salvo, los desiertos que se te presenten."
   },
   {
-    "phrase": "Cuando practicas fe, esperanza y caridad, tu vida se llena de amor, salud y prosperidad. Nuestro padre-madre tiene muchos regalos para ti, haz un pedido especial, cree y confía."
+    "phrase": "Cuando practicas fe, esperanza y caridad, tu vida se llena de amor, salud y prosperidad. Nuestro Padre-Madre tiene muchos regalos para ti, haz un pedido especial, cree y confía."
   },
   {
     "phrase": "En el universo todo es vibración, la paz, la felicidad, la salud… también la música, hoy presta atención especial a la música, tenemos un mensaje para ti que te ayudará a armonizar tu vida."
@@ -535,7 +535,7 @@ var frases = [
     "phrase": "Es importante que tus palabras lleguen al corazón de los hombres, para inspirarles y conducirlos en la bondad. Las palabras son tu varita mágica, tiene poder, úsalas para bien."
   },
   {
-    "phrase": "Tu situación financiera, como tras áreas de tu vida, se ve afectada por las emociones en tu interior. Siéntete rico. Convierte tu vida en una fuente sagrada de bienestar, ayuda a eliminar la sed de esperanza que consume al mundo."
+    "phrase": "Tu situación financiera, como otras áreas de tu vida, se ve afectada por las emociones en tu interior. Siéntete rico. Convierte tu vida en una fuente sagrada de bienestar, ayuda a eliminar la sed de esperanza que consume al mundo."
   },
   {
     "phrase": "Las ideas de miedo con respecto al dinero provocan tensión en tu interior y minan tu capacidad de manifestar riqueza. Eleva tus aspiraciones al cielo, sin descuidar tu desarrollo en el mundo material. Tú eres fuerte de abundancia, vive tu riqueza sin culpa."
@@ -556,10 +556,10 @@ var frases = [
     "phrase": "Sincronízate con el ritmo del universo a través de tu contacto con la naturaleza e incrementa tus tiempos de oportunidad. Tu casa y tú están protegidos ahora y siempre, los ángeles estamos a tu lado. Que tu actitud sea de certeza. "
   },
   {
-    "phrase": "Los ángeles estamos a tu lado para guiarte en el camino de amor de tu plan divino de vida, Sin fe es poco fácil que avances en el camino espiritual."
+    "phrase": "Los ángeles estamos a tu lado para guiarte en el camino de amor de tu plan divino de vida, sin fe es poco fácil que avances en el camino espiritual."
   },
   {
-    "phrase": "Tus chakras son los semáforos que te indican como están tus emoción es. Enfócate en armonizarlos. Elimina de tus pensamientos cualquier persona o situación que te deprima."
+    "phrase": "Tus chakras son los semáforos que te indican como están tus emociones. Enfócate en armonizarlos. Elimina de tus pensamientos cualquier persona o situación que te deprima."
   },
   {
     "phrase": "Tú no eres víctima de las circunstancias, tienes el apoyo de todos los ángeles y arcángeles del cielo. Te la puedes pasar muy bien en la vida, cree y confía."
@@ -583,7 +583,7 @@ var frases = [
     "phrase": "No entregues tu poder a la opinión de los demás, eres un ser único e irrepetible, permite que brille tu luz. Emprende algo nuevo sin temor, la vida es emocionante, arriésgate."
   },
   {
-    "phrase": "La naturaleza te ayuda a liberar tensiones y presiones en tu vida, disfruta de ella. Para crear lo nuevo es importante contar el cordón con lo viejo."
+    "phrase": "La naturaleza te ayuda a liberar tensiones y presiones en tu vida, disfruta de ella. Para crear lo nuevo es importante cortar el cordón con lo viejo."
   },
   {
     "phrase": "Los ángeles cuidamos de tu niño interior, haciendo que incrementes tu vitalidad y disfrutes más de la vida. Cuando hay paz en lo profundo de tu pequeño mundo, se refleja en el mundo que te rodea."
@@ -592,13 +592,13 @@ var frases = [
     "phrase": "Honra tu evolución y tus logros, los ángeles te ayudamos a ver lo bueno en toda situación. El júbilo acompaña al servicio y el servicio a la dedicación. Da lo mejor de ti."
   },
   {
-    "phrase": "Envuelve cada deseo con fe, gratitud y alegría, confía en nosotros que los llevamos directo al cielo. Cuanto más posesivo te encuentres hacia algo, más probabilidades hay de perderlo."
+    "phrase": "Envuelve cada deseo con fe, gratitud y alegría, confía en nosotros que los llevamos directo al cielo. Cuanto más apego sientas hacia algo, más probabilidades hay sufrir al perderlo."
   },
   {
     "phrase": "Cuida tu cuerpo con amor, nutre tus pensamientos, alimenta tus palabras y siente nuestro amor incondicional. El sueño y el descanso renuevan tu cuerpo y espíritu, también cuídalos. "
   },
   {
-    "phrase": "El amor por ti te invita a aspirar a lo alto, cuanto más alto mejor. Aún cuando no alcances ese propósito todas las veces, te estarás estirando continuamente maximizando tu capacidad. "
+    "phrase": "El amor por ti te invita a aspirar a lo alto, cuanto más alto mejor. Aún cuando no alcances ese propósito todas las veces, estarás continuamente maximizando tu capacidad. "
   },
   {
     "phrase": "Los ángeles te amamos como el ser puro y divino que eres. Ámate a ti mismo. Recuerda siempre que tú has de cumplir tu parte."
@@ -607,7 +607,7 @@ var frases = [
     "phrase": "Observa las muestras de amor que te regala el universo y aliméntate de su calidez. Yo estoy siempre aquí y nunca te dejaré ni te abandonaré."
   },
   {
-    "phrase": "Disfruta la tranquilidad perfecta que hay en tu interior. Disfruta el paraíso que está dentro de ti. Bebe de la infinita fuente de poder hay en este paraíso y te encontrarás haciendo cosas que nunca imaginaste."
+    "phrase": "Disfruta la tranquilidad perfecta que hay en tu interior. Disfruta el paraíso que está dentro de ti. Bebe de la infinita fuente de poder que hay en este paraíso y te encontrarás haciendo cosas que nunca imaginaste."
   },
   {
     "phrase": "Estás eternamente con Dios, sólo en tu imaginación es posible la separación. Que este amor siga fluyendo y que nada se interponga en su camino."
@@ -625,7 +625,7 @@ var frases = [
     "phrase": "Decide actuar a tu favor y haz algo por tu cuerpo, mejora tu dieta, baila, duerme bien. Tu cuerpo es tu templo. A nadie le gusta ser herido ni ofendido, tampoco a tu cuerpo."
   },
   {
-    "phrase": "También tus seres queridos tienen ángeles que los cuidan, deja de preocuparte por ellos y bendícelos. Intenta comprenderlos y estate dispuesta a acompañarlos cuando sea necesario, pero sin dejar de ser tú mismo."
+    "phrase": "También tus seres queridos tienen ángeles que los cuidan, deja de preocuparte por ellos y bendícelos. Intenta comprenderlos y esta dispuesto a acompañarlos cuando sea necesario, pero sin dejar de ser tú mismo."
   },
   {
     "phrase": "Enfócate en tu meta, respeta tus decisiones, nosotros te protegemos y confirmamos que estás en el camino correcto. Asegúrate de obrar lo mejor que puedas, que tus motivaciones sean puras."
@@ -649,7 +649,7 @@ var frases = [
     "phrase": "Reconoce tu libertad para ascender espiritualmente a mayores alturas. No actúes como pájaro enjaulado. Eres libre, acéptalo."
   },
   {
-    "phrase": "Suelta el peso de tus cargas, entréganos tus angustias y preocupaciones, las llevaremos al nuestro padre-madre, siente su respuesta, en este instante te fortalece y sostiene."
+    "phrase": "Suelta el peso de tus cargas, entréganos tus angustias y preocupaciones, las llevaremos a nuestro Padre-Madre, siente su respuesta, en este instante te fortalece y sostiene."
   },
   {
     "phrase": "Hoy abre los brazos para dar la bienvenida a los regalos que lleguen a ti y di si al flujo universal. Cuanto más abierto estés menos posibilidades hay de frenar los milagros."
@@ -670,16 +670,16 @@ var frases = [
     "phrase": "Cuando te expresas con palabras dulces te haces un regalo a ti y a los demás. Estás en este mundo para llevarle el bien."
   },
   {
-    "phrase": "Tu nivel de vibración de tu energía se eleva cuando tu cuerpo y tu mente están en paz y armonía. Respira profundamente y encuentra es paz que está más allá de toda comprensión."
+    "phrase": "El nivel de vibración de tu energía se eleva cuando tu cuerpo y tu mente están en paz y armonía. Respira profundamente y encuentra la paz que está más allá de toda comprensión."
   },
   {
     "phrase": "Todo es vibración, los colores, los números, los aromas te ayudan a armonizar y equilibrar tu energía. Cuentas con la ayuda del universo para sanar. Cuentas conmigo."
   },
   {
-    "phrase": " Honra y bendice tu sensibilidad como el regalo que en verdad es y respeta tu intuición. Cuando sientes tensión, busca dentro de ti y averigua qué es aquello contra lo que luchas que te produce esa tensión."
+    "phrase": "Honra y bendice tu sensibilidad como el regalo que en verdad es y respeta tu intuición. Cuando sientes tensión, busca dentro de ti y averigua qué es aquello contra lo que luchas que te produce esa tensión."
   },
   {
-    "phrase": "Poco a Poco tu sensibilidad se incrementa y puedes llenar tu espacio de fragancias y observar la influencia positiva. Cuando estás en este estado de conciencia puedes gozar del cielo en la tierra."
+    "phrase": "Poco a poco tu sensibilidad se incrementa y puedes llenar tu espacio de fragancias y observar la influencia positiva. Cuando estás en este estado de consciencia puedes gozar del cielo en la tierra."
   },
   {
     "phrase": "Así como absorbes energía positiva, puedes absorber energía de baja vibración, limpia tu energía con nuestra ayuda. Repite: Soy UNO con la divinidad, hasta que tenga sentido para ti."
@@ -691,10 +691,10 @@ var frases = [
     "phrase": "Apréciate, estás haciendo un buen trabajo das con amor y recibes con gratitud. ¡Felicidades! Estás inmunizado ante cualquier problema del mundo exterior."
   },
   {
-    "phrase": "Tu talento, es la herramienta de Dios te dio para conducirte a casa de nuevo con paz y alegría. Al avanzar hacia lo nuevo se consciente de la divinidad en tu interior."
+    "phrase": "Tu talento, es la herramienta que Dios te dio para conducirte a casa de nuevo con paz y alegría. Al avanzar hacia lo nuevo se consciente de la divinidad en tu interior."
   },
   {
-    "phrase": "Explorar nuevos métodos para expresarte con creatividad, intenta cosas nuevas y goza la experiencia. La vida es una continua invitación para crear."
+    "phrase": "Explora nuevos métodos para expresarte con creatividad, intenta cosas nuevas y goza la experiencia. La vida es una continua invitación para crear."
   },
   {
     "phrase": "Quiérete por lo que eres y sé amable contigo. Cuando tú te cuidas, el universo te cuida. Busca en ti la gracia y entra en la sintonía del amor."
@@ -757,7 +757,7 @@ var frases = [
     "phrase": "Cuando eres feliz, sacas lo mejor de ti y de los demás. Elige ser feliz. Sé cómo un niño pequeño ahora, libre y lleno de júbilo, vive el eterno presente ahora."
   },
   {
-    "phrase": "Los ángeles estamos en constante comunicación contigo. Atiende tus corazonadas y observa nuestras señales. D gracias por todo lo que tienes, estás atrayendo lo mejor hacia ti."
+    "phrase": "Los ángeles estamos en constante comunicación contigo. Atiende tus corazonadas y observa nuestras señales. Da gracias por todo lo que tienes, estás atrayendo lo mejor hacia ti."
   },
   {
     "phrase": "Tu poder está en tu voluntad y tiene apoyo de nuestra asistencia y guía, no lo cedas, toma el control de tus emociones. Toda limitación proviene del temor."
@@ -793,10 +793,10 @@ var frases = [
     "phrase": "Para recordar el abrazo del cielo, sólo abraza tu interior. Dios está en ti, como en el interior de los demás. Utiliza la gratitud como una fuerza espiritual fundamental."
   },
   {
-    "phrase": "El amor libera a los amados. El amor nunca es posesivo. La libertad del espíritu es esencial para ti y los que te rodean. Ama en libertad"
+    "phrase": "Sé gentil contigo mismo, con tus seres queridos y el ambiente que te rodea, en todo encontrarás la presencia de Dios."
   },
   {
-    "phrase": "Para recordar el abrazo del cielo, sólo abraza tu interior. Dios está en ti, como en el interior de los demás. Utiliza la gratitud como una fuerza espiritual fundamental."
+    "phrase": "Estamos abriendo el corazón de todos los que te rodean, los conflictos y discusiones están siendo resueltos ahora con amor."
   },
   {
     "phrase": "Aquello en lo que decides concentrarte es el reflejo de lo que deseas para tu vida. Elige felicidad, amor, bondad."
@@ -817,7 +817,7 @@ var frases = [
     "phrase": "Tu energía de amor fluye por todo tu cuerpo y puedes usarla a voluntad, para bien tuyo y de los demás. Fluye con la corriente, no contra ella. Muéstrate más flexible."
   },
   {
-    "phrase": "La próxima vez que te encuentres sufriendo carencias de algún tipo, no le eches la culpa a las circunstancias, a tus condiciones o a tu situación: en vez de eso, tómate tiempo para mirar en tu interior y ver qué es lo que ocasiona esa obstrucción dentro de ti y llámanos, estamos a tu lado."
+    "phrase": "La próxima vez que te encuentres sufriendo carencias de algún tipo, no busques culpables, tómate tiempo para mirar en tu interior y ver qué es lo que ocasiona esa obstrucción dentro de ti y llámanos, estamos a tu lado."
   },
   {
     "phrase": "Date permiso de ver la situación desde otro punto de vista, escucha tu intuición y ve como llega la respuesta. Deja de intentar ser como otra persona, siendo tú mismo eres suficiente."
@@ -838,7 +838,7 @@ var frases = [
     "phrase": "Podemos ayudarte sólo si nos lo pides, es importante que recuerdes llamarnos. Pide nuestra ayuda sin restricción alguna, no juzgamos, es nuestra misión ayudarte."
   },
   {
-    "phrase": "Regálate un día de paz, siente la serenidad que habita dentro de ti y disfruta los resultados. Deja atrás el ayer y no pierdas más tiempo deteniéndote en los errores, puedes echar a perder tu vida. "
+    "phrase": "Regálate un día de paz, siente la serenidad que habita dentro de ti y disfruta los resultados. Deja atrás el ayer y no pierdas más tiempo deteniéndote en los errores, vive el presente. "
   },
   {
     "phrase": "Descansar es una inversión que haces en ti y produce abundantes regalías. Es un tiempo hermoso para ti. Vive el milagro de estar en perfecta paz."
@@ -859,7 +859,7 @@ var frases = [
     "phrase": "Que todas las cosas coincidan perfectamente en tu vida requiere de la magia del cielo y tu paciencia. Confía en el tiempo divino."
   },
   {
-    "phrase": "Vive y se consiente de tu presente, aprecia cada segundo, fíjate en los detalles y goza la experiencia, a estas alturas ya sabes que estoy contigo siempre. Te amo."
+    "phrase": "Vive y se consciente de tu presente, aprecia cada segundo, fíjate en los detalles y goza la experiencia, a estas alturas ya sabes que estoy contigo siempre. Te amo."
   },
   {
     "phrase": "Estás rodeado del afecto del cielo, puedes hacer todas las cosas cuando tu fe y confianza están puestas en la divinidad en tu interior."
@@ -868,7 +868,7 @@ var frases = [
     "phrase": "El miedo es la base de los problemas de las relaciones, no cedas tu voluntad, nadie te pueda quitar lo que Dios te dio. Cuando hay amor desaparece todo temor, odio, celos, envidia y codicia."
   },
   {
-    "phrase": "Las cualidades de los demás las puedes observar con la mente y el corazón abiertos, Sólo tu puedes vivir tu propia vida."
+    "phrase": "Las cualidades de los demás las puedes observar con la mente y el corazón abiertos, Sólo tú puedes vivir tu propia vida."
   },
   {
     "phrase": "Los ángeles estamos conectados a Dios, a ti y a toda la creación. Todos estamos conectados. La vida se puede volver divertida, es continuo movimiento."
@@ -901,7 +901,7 @@ var frases = [
     "phrase": "Exprésate como sientas que debas hacerlo, disfruta la creatividad que proviene de ser tú mismo. De ti depende como va a ser tu día."
   },
   {
-    "phrase": "Tu autencidad te permite brillar con toda tu luz, exprésate con libertad, confianza y alegría. Levanta tu corazón, tu vida es una alabanza que glorifica a Dios."
+    "phrase": "Tu autencidad te permite brillar con toda tu luz, exprésate con libertad, confianza y alegría. Anima a tu corazón, tu vida es una alabanza que glorifica a Dios."
   },
   {
     "phrase": "Envía los temores relacionados con el dinero a la llama de la luz y el amor. Dios quiere abundancia para todos. Sólo cree y confía y observa como sucede milagro tras milagro. "
@@ -934,7 +934,7 @@ var frases = [
     "phrase": "Cambia toda preocupación por fe, da gracias por los cambios rápidos, y cambia con los cambios. Todo es para bien, por eso no tengas temor y sigue adelante con júbilo."
   },
   {
-    "phrase": "Honra tu sabiduría interna, tus ideas vienes de la misma fuente que la de los humanos más sabios. Cuando tomes decisiones, inspírate en el Dios en tu interior."
+    "phrase": "Honra tu sabiduría interna, tus ideas vienen de la misma fuente que la de los humanos más sabios. Cuando tomes decisiones, inspírate en el Dios en tu interior."
   },
   {
     "phrase": "Permite que el tranquilo espíritu de la naturaleza te calme y reviva, toda la creación fue diseñada para ayudarte. Deposita todas tus preocupaciones en nuestras manos, las llevaremos gustosos ante Dios."
@@ -1054,7 +1054,7 @@ var frases = [
     "phrase": "La Madre Divina, te cobija con su manto de estrellas. Estás protegido y eres profundamente amado. La energía de la Madre te nutre, te abraza, te apoya en todo momento."
   },
   {
-    "phrase": "Recuerda que mereces la asistencia del cielo. Todo ser humano recibe ayuda cuando la solicita. El plan de nuestro padre-madre para ti es perfecto y se manifestará en el tiempo perfecto. Enciende una vela morada al ángel de la opulencia hoy."
+    "phrase": "Recuerda que mereces la asistencia del cielo. Todo ser humano recibe ayuda cuando la solicita. El plan de nuestro Padre-Madre para ti es perfecto y se manifestará en el tiempo perfecto."
   },
   {
     "phrase": "Ábrete a recibir los ángeles de la opulencia, la riqueza, el suministro y la abundancia están llegando a tu casa. No desgastes tu energía con pensamientos de duda."
@@ -1066,7 +1066,7 @@ var frases = [
     "phrase": "Libérate del miedo y la indecisión, es momento de actuar, estamos a tu lado. La vida es lo que haces de ella. Actúa."
   },
   {
-    "phrase": "Tú manejas tu voluntad, no cesas tu poder a nadie. Escucha tu corazón y actúa en conciencia. La fe engendra fe. Deposita tu confianza en el universo."
+    "phrase": "Tú manejas tu voluntad, no cedas tu poder a nadie. Escucha tu corazón y actúa en conciencia. La fe engendra fe. Deposita tu confianza en el universo."
   },
   {
     "phrase": "Un corazón feliz, sano, física y emocionalmente, permite que la luz de la alegría nutra tu alma. Comparte risas y bendiciones."
@@ -1078,7 +1078,7 @@ var frases = [
     "phrase": "Cuando el ego trate de disuadirte para que no alcances tu misión, escucha tu voz interior. El universo te apoya totalmente. Estamos a tu lado."
   },
   {
-    "phrase": "Hoy el ángel de la navidad llega para entregarte salud, prosperidad, amor, paz y riqueza. Un corazón abierto y generoso atrae todo lo mejor."
+    "phrase": "Hoy llego para entregarte salud, prosperidad, amor, paz y riqueza. Un corazón abierto y generoso atrae todo lo mejor."
   },
   {
     "phrase": "Cuando te sientes desanimado o cansado, los ángeles te sostenemos para que vuelvas a tu natural estado de felicidad. Descansa."
@@ -1087,10 +1087,10 @@ var frases = [
     "phrase": "Te mandamos señales y guía concreta para ayudarte a sacar provecho de los mensajes que enviamos a tu corazón. Permite que la divinidad obre a través de ti y produzca maravillas."
   },
   {
-    "phrase": "Respira profundo y abre tu corazón, en este momento la luz más pura del universo llega a ti, permite que habite en ti y se expanda, iluminando tu vida y la de los tuyos."
+    "phrase": "Respira profundo y abre tu corazón, en ese momento la luz más pura del universo llega a ti, permite que habite en ti y se expanda, iluminando tu vida y la de los tuyos."
   },
   {
-    "phrase": "Los ángeles siempre hemos estado orgullosos de ti. Eres valioso, recibe los regalos amorosos del cielo. Salud, paz, amor, armonía, felicidad, riqueza, bondad…"
+    "phrase": "Los ángeles siempre hemos estado orgullosos de ti. Eres valioso, recibe los regalos amorosos del cielo. Salud, paz, amor, armonía, felicidad, riqueza, bondad."
   },
   {
     "phrase": "Hay mucho amor intentando desplegarse, haz lo tuyo, date cuenta de que lo que te sucede como individuo se refleja en el mundo. Eres luz."
@@ -1128,7 +1128,6 @@ shuffle (frases);
 
 for (i = 1; i <= 365; i++) {
 
-    $.writeln (frases[i].phrase)
     app.findTextPreferences.findWhat = "FBOTIEL"+i;
     app.changeTextPreferences.changeTo = frases[i-1].phrase;
     myDoc.changeText();
